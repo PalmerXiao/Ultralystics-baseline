@@ -1,0 +1,31 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\PycharmProject\Datasets\CV\DIOR # dataset root dir
+train: images/train # train images (relative to 'path')  16424 images
+val: images/val # val images (relative to 'path')  2346 images
+test: images/test # test images (optional)  4693 images
+
+nc: 20
+# Classes
+names:
+  0: airplane
+  1: airport
+  2: baseballfield
+  3: basketballcourt
+  4: bridge
+  5: chimney
+  6: dam
+  7: Expressway-Service-area
+  8: Expressway-toll-station
+  9: golffield
+  10: groundtrackfield
+  11: harbor
+  12: overpass
+  13: ship
+  14: stadium
+  15: storagetank
+  16: tenniscourt
+  17: trainstation
+  18: vehicle
+  19: windmill

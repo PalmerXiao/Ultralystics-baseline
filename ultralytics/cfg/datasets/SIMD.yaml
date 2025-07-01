@@ -1,0 +1,25 @@
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: E:\PycharmProject\Datasets\CV\SIMD # dataset root dir
+train: images/train # train images (relative to 'path')  4000 images
+val: images/val # val images (relative to 'path')  1000 images
+
+
+# Classes
+names:
+  0: car
+  1: truck
+  2: van
+  3: long vehicle
+  4: bus
+  5: airliner
+  6: propeller aircraft
+  7: trainer aircraft
+  8: chartered aircraft
+  9: fighter aircraft
+  10: others
+  11: stair truck
+  12: pushback truck
+  13: helicopter
+  14: boat
+
